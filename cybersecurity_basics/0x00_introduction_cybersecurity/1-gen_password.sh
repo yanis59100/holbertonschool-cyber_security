@@ -1,2 +1,2 @@
 #!/bin/bash
-</dev/urandom tr -cd [:alnum:]| fold -w 20 | head -1
+ tr -cd [:alnum:] < /dev/urandom | fold -w 20 | head -1
